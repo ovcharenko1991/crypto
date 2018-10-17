@@ -1,0 +1,97 @@
+.coins {
+	text-align: center;
+	.ethereum {
+		background: url('../img/ethereum.png') center;
+		background-size: cover;
+		height: 100%;
+		width: 30%;
+		display: inline-flex;
+		text-align: center;
+		flex-flow: column;
+		border-radius: 10px;
+		padding-bottom: 3%;
+		margin-bottom: 3%;
+	}
+	.litecoin {
+		background: url('../img/litecoin.png') center;
+		background-size: cover;
+		height: 100%;
+		width: 30%;
+		display: inline-flex;
+		text-align: center;
+		flex-flow: column;
+		margin: 0 3%;
+		border-radius: 10px;
+		padding-bottom: 3%;
+		margin-bottom: 3%;
+	}
+	.bitcoin {
+		background: url('../img/bitcoin.png') center;
+		background-size: cover;
+		height: 100%;
+		width: 30%;
+		display: inline-flex;
+		text-align: center;
+		flex-flow: column;
+		border-radius: 10px;
+		padding-bottom: 3%;
+		margin-bottom: 3%;
+	}
+	h3 {
+		color: #fff;
+		display: block;
+		padding-top: 5%;
+	}
+	.price {
+		color: #fff;
+		display: inline-flex;
+		justify-content: space-between;
+		padding-top: 50%;
+		p:nth-child(odd) {
+			padding: 0 0 0 15%;
+		}
+		p:nth-child(even) {
+			padding: 0 15% 0 0;
+		}
+		p {
+			font-size: 1.2rem;
+			font-weight: bold;
+		}
+	}
+	.percent {
+		color: #fff;
+		display: inline-flex;
+		justify-content: space-between;	
+		p {
+			padding-left: 15%;
+		}
+		img {
+			padding-right: 15%;
+			height: 30%;
+			cursor: pointer;
+			margin-top: 2%;
+		}
+	}
+	.change {
+		color: #fff;
+		display: inline-flex;
+		justify-content: space-between;
+		p:nth-child(odd) {
+			padding: 0 0 0 15%;
+			color: #969696;
+			font-size: .8rem;
+			margin-bottom:0;
+		}
+		p:nth-child(even) {
+			padding: 0 15% 0 0;
+			margin-bottom: 0;
+			font-weight: bold;
+		}
+		.green {
+			color: green;
+		}
+		.red {
+			color: red;
+		}
+	}
+}

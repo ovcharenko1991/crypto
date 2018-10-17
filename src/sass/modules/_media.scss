@@ -1,0 +1,55 @@
+@media (max-width: 1200px) {
+	body {
+		main {
+			padding: 5% 10%;
+			.coins {
+				.ethereum {
+					width: 45%;
+				}
+				.litecoin {
+					width: 45%;
+					margin: 0 0 3% 0;
+				}
+				.bitcoin {
+					width: 45%;
+				}
+			}
+		}
+	}
+	
+}
+
+
+
+@media (max-width: 800px) {
+	body {
+		main {
+			.yo {
+				display: block;
+				h1 {
+					width: 100%;
+					text-align: center;
+					padding: 0;
+				}
+				select {
+					width: 80%;
+					position: relative;
+					left: 10%;
+					height: 50px;
+				}
+			}
+	
+			.coins {
+				.ethereum {
+					width: 100%;
+				}
+				.litecoin {
+					width: 100%;
+				}
+				.bitcoin {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
